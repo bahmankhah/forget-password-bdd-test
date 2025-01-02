@@ -1,0 +1,8 @@
+{
+    "default": {
+      "require": ["src/test/e2e/steps/**/*.steps.ts"],
+      "formatOptions": {
+        "snippetInterface": "synchronous"
+      }
+    }
+  }
