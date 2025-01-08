@@ -3,8 +3,8 @@ Feature: Password Reset
 
 Scenario: Successful password reset
   Given the user has forgotten their password
-  When the user requests a password reset
-  And the user provides valid identification
+  When the user provides valid identification
+  And the user requests a password reset
   Then the system sends a password reset link to the user's registered email
   When the user clicks the reset link
   And the user enters a new valid password
